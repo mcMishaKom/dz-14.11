@@ -3,10 +3,4 @@ project(dz)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(dz
-        stack.cpp
-        bst.cpp
-        heap.cpp
-        segmenttree.cpp
-        trie.cpp
-        list.cpp)
+add_executable(dz heap.cpp)
